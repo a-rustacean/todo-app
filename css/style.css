@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+* {
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  border: none;
+}
+
+:root {
+  --gap: 10px;
+  --color-primary: #bb86fc;
+  --color-secondary: #03dac6;
+  --color-background: #121212;
+  --color-error: #FF2525;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--color-background);
+  border-radius: 0;
+}
+
+#main {
+  border-radius: 5px;
+  background-color: grey;
+  padding: var(--gap);
+  background-color: var(--color-background);
+  box-shadow: 5px 5px 8px 4px rgba(0, 0, 0, 0.2),
+              -5px -5px 8px 4px rgba(1, 1, 1, 0.2);
+}
+
+#add-todo {
+  display: flex;
+  gap: var(--gap);
+}
+
+#todo-text {
+  padding: var(--gap);
+  background-color: var(--color-background);
+  box-shadow: inset 5px 5px 8px 4px rgba(0, 0, 0, 0.2),
+              inset -5px -5px 8px 4px rgba(1, 1, 1, 0.2);
+  color: whitesmoke;
+}
+
+#add-todo-button {
+  background-color: var(--color-background);
+  box-shadow: 5px 5px 8px 4px rgba(0, 0, 0, 0.2), -5px -5px 8px 4px rgba(1, 1, 1, 0.2);
+}
+
+.todo {
+  display: flex;
+  gap: var(--gap);
+  align-items: center;
+  margin-top: var(--gap);
+}
+
+.todo-text {
+  background-color: var(--color-primary);
+  width: 200px;
+  margin: 0;
+  padding: 10px;
+}
+
+.remove-todo {
+  padding: 10px;
+  background-color: var(--color-error);
+}
