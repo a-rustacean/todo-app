@@ -51,6 +51,7 @@ body {
 #add-todo-button {
   background-color: var(--color-background);
   box-shadow: 5px 5px 8px 4px rgba(0, 0, 0, 0.2), -5px -5px 8px 4px rgba(1, 1, 1, 0.2);
+  color: whitesmoke;
 }
 
 .todo {
@@ -62,9 +63,12 @@ body {
 
 .todo-text {
   background-color: var(--color-primary);
-  width: 200px;
+  max-width: 210px;
+  width: 100%;
   margin: 0;
   padding: 10px;
+  overflow: hidden;
+  overflow-wrap: break-word;
 }
 
 .remove-todo {
