@@ -1,3 +1,3 @@
 # Todo App
 
-A lightweight and user-friendly task management application built in JavaScript. Easily create, update, and delete todos, with automatic local storage saving for seamless persistence.
+A lightweight and user-friendly task management application built in JavaScript. Easily create, update, and delete todos, with automatic local storage saving for seamless persistence. [Live demo](https://a-rustacean.github.io/todo-app)
